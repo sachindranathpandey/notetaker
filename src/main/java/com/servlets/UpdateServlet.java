@@ -31,7 +31,7 @@ public class UpdateServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String title=(request.getParameter("title"));
-		String content=(request.getParameter("title"));
+		String content=(request.getParameter("content"));
 		int note_id=Integer.parseInt(request.getParameter("note_id").trim());
 
 		
